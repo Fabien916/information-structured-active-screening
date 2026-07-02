@@ -1,0 +1,42 @@
+﻿# Companion mobo config for --config config/surrogate/config.yaml
+paths:
+  init_library_csv: data_trim/tcm_library_heavy40_vocab9.csv
+  init_library_smiles_col: smiles_canonical
+  init_encoder_ckpt: null
+  init_training_dataset_root: dataset/8UN4
+  init_ligand_vocab_file: null
+  output_dir: runs/janus_baseline_8UN4_heavy40_vocab9
+
+init_selection:
+  library_max_rows: 0
+  butina_cutoff: 0.6
+  fp_radius: 2
+  fp_bits: 2048
+  init_train_valid_total: 480
+  holdout_test_total: 120
+  selection_seed: 42
+
+experiment:
+  rounds: 20
+  seed: 42
+
+population_baseline:
+  method: janus
+  population_size: 100
+  generations: 20
+  candidate_keep_topk: 256
+  start_pool_size: 1000
+  max_smiles_len: 100
+  num_sample_frags: 10
+  explr_num_random_samples: 5
+  explr_num_mutations: 5
+  crossover_num_random_samples: 1
+  exploit_num_random_samples: 5
+  exploit_num_mutations: 5
+  top_mols: 4
+  num_exchanges: 0
+  max_filter_rounds: 240
+  score_flush_size: 256
+  oracle_topk_per_generation: 32
+
+

@@ -1,0 +1,56 @@
+trial_name,label,metric,mean,std,ci95,n
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,spearman,0.47598377290703525,0.02900564902737433,0.03282298177698978,3
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,kendall,0.3402025843480822,0.022062510085090234,0.024966080427786332,3
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,rmse,2.3117940045436316,0.5442523473923264,0.615879508977129,3
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,nll,3.446177760394615,1.2692798842329331,1.4363254023641676,3
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,calibration_gap,1.6053965777767631,0.5902870944060129,0.6679727291947684,3
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,hit@100,0.0,0.0,0.0,3
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,ndcg@50,0.5136202651030602,0.02733893588127206,0.03093691830120427,3
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,coverage_1sigma,0.3937858484014507,0.05418032046083502,0.06131080430157285,3
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,coverage_2sigma,0.6730025635090066,0.06843975620564711,0.07744687487046133,3
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,hit@1pct,0.02656383890317052,0.0029683818467332937,0.003359040274207369,3
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,top1pct_k,389.0,0.0,0.0,3
+gin_small_gaussian,2D GIN heteroscedastic,spearman,0.8397183137365055,0.016434873482683087,0.018597810113476065,3
+gin_small_gaussian,2D GIN heteroscedastic,kendall,0.6560457760426562,0.020513351871736564,0.023213042881252095,3
+gin_small_gaussian,2D GIN heteroscedastic,rmse,0.8177852208362287,0.04796795423865524,0.05428085013263998,3
+gin_small_gaussian,2D GIN heteroscedastic,nll,0.1607699874496183,0.11460935193986296,0.12969269078049175,3
+gin_small_gaussian,2D GIN heteroscedastic,calibration_gap,0.11863026717855824,0.1004948552950786,0.11372063424330078,3
+gin_small_gaussian,2D GIN heteroscedastic,hit@100,0.19999999999999998,0.034641016151377546,0.0392,3
+gin_small_gaussian,2D GIN heteroscedastic,ndcg@50,0.7667045430052849,0.030742322636377037,0.03478821296926815,3
+gin_small_gaussian,2D GIN heteroscedastic,coverage_1sigma,0.6514142167579756,0.11283566764091262,0.1276855780498772,3
+gin_small_gaussian,2D GIN heteroscedastic,coverage_2sigma,0.9286247074256025,0.05625589219570785,0.06365953482528121,3
+gin_small_gaussian,2D GIN heteroscedastic,hit@1pct,0.28791773778920304,0.035341200732307246,0.03999233344231309,3
+gin_small_gaussian,2D GIN heteroscedastic,top1pct_k,389.0,0.0,0.0,3
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,spearman,0.7191626933051246,0.044060491788456266,0.04985914011759734,3
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,kendall,0.5280380606226266,0.04098807300892143,0.04638237097111905,3
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,rmse,1.520059190585747,0.10757082078906313,0.12172784298544861,3
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,nll,73.2040352271891,15.19716465365868,17.197210723269453,3
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,calibration_gap,1.336370696365971,0.10993399746713378,0.124402029140253,3
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,hit@100,0.16333333333333333,0.015275252316519465,0.017285575232288655,3
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,ndcg@50,0.7589777179096817,0.03499641209076073,0.03960216836489269,3
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,coverage_1sigma,0.09533364202294586,0.012612986681095593,0.014272938061006782,3
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,coverage_2sigma,0.18715165234689848,0.02499298348573208,0.028282223256945002,3
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,hit@1pct,0.23050556983718937,0.034902162561124744,0.03949551498193228,3
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,top1pct_k,389.0,0.0,0.0,3
+tensornet_scratch_nig,3D TensorNet evidential NIG,spearman,0.796938756559764,0.059019329941172455,0.06678665901669743,3
+tensornet_scratch_nig,3D TensorNet evidential NIG,kendall,0.6075455380084381,0.06484892436606411,0.0733834661212334,3
+tensornet_scratch_nig,3D TensorNet evidential NIG,rmse,1.0351117729620185,0.2006112665930765,0.2270130187891696,3
+tensornet_scratch_nig,3D TensorNet evidential NIG,nll,1.235819883374085,0.19853734337547266,0.22466615373836374,3
+tensornet_scratch_nig,3D TensorNet evidential NIG,calibration_gap,0.1443869029790151,0.028972484748075605,0.032785452862051805,3
+tensornet_scratch_nig,3D TensorNet evidential NIG,hit@100,0.20333333333333334,0.011547005383792509,0.01306666666666666,3
+tensornet_scratch_nig,3D TensorNet evidential NIG,ndcg@50,0.7915175698279041,0.025966193764631065,0.02938351436128587,3
+tensornet_scratch_nig,3D TensorNet evidential NIG,coverage_1sigma,0.753905781070467,0.022655534948496158,0.025637151234252493,3
+tensornet_scratch_nig,3D TensorNet evidential NIG,coverage_2sigma,0.9764538423282056,0.007970345362208095,0.009019294839194053,3
+tensornet_scratch_nig,3D TensorNet evidential NIG,hit@1pct,0.3144815766923736,0.03265220031406624,0.03694944301628106,3
+tensornet_scratch_nig,3D TensorNet evidential NIG,top1pct_k,389.0,0.0,0.0,3
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,spearman,0.8636487978947317,0.021533837344855856,0.024367830903966763,3
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,kendall,0.6830328141246088,0.02603316686319157,0.029459301556791315,3
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,rmse,0.7779590328689836,0.038432041464459034,0.043489948990624076,3
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,nll,0.06010401024652153,0.05289531494081955,0.059856683667106315,3
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,calibration_gap,0.14344020981500213,0.04658266809238858,0.05271325128691461,3
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,hit@100,0.21333333333333335,0.02081665999466133,0.0235562683330314,3
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,ndcg@50,0.7846842678871178,0.02182846119612015,0.024701229177247527,3
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,coverage_1sigma,0.784071615990122,0.025160347012998546,0.028471612916883854,3
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,coverage_2sigma,0.9803982096002469,0.004052918805111118,0.004586309375743817,3
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,hit@1pct,0.33161953727506427,0.02040425175628219,0.023089584478440738,3
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,top1pct_k,389.0,0.0,0.0,3

@@ -1,0 +1,325 @@
+panel_id,compound_id,compound_name,cell_line,plate_id,source_sheet,measurement_type,replicate,od450
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HCT116,1,HCT-116 1,treatment,1,0.9137
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HCT116,1,HCT-116 1,treatment,2,1.0598
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HCT116,1,HCT-116 1,treatment,3,0.8319
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HCT116,1,HCT-116 1,normalization_reference,1,1.4315
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HCT116,1,HCT-116 1,normalization_reference,2,1.3717
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HCT116,1,HCT-116 1,normalization_reference,3,1.1475
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HCT116,1,HCT-116 1,blank,1,0.3439
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HCT116,1,HCT-116 1,blank,2,0.3166
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HCT116,1,HCT-116 1,blank,3,0.3193
+M2,T61189,E7016,HCT116,1,HCT-116 1,treatment,1,1.0172
+M2,T61189,E7016,HCT116,1,HCT-116 1,treatment,2,1.6888
+M2,T61189,E7016,HCT116,1,HCT-116 1,treatment,3,1.4126
+M2,T61189,E7016,HCT116,1,HCT-116 1,normalization_reference,1,1.4315
+M2,T61189,E7016,HCT116,1,HCT-116 1,normalization_reference,2,1.3717
+M2,T61189,E7016,HCT116,1,HCT-116 1,normalization_reference,3,1.1475
+M2,T61189,E7016,HCT116,1,HCT-116 1,blank,1,0.3439
+M2,T61189,E7016,HCT116,1,HCT-116 1,blank,2,0.3166
+M2,T61189,E7016,HCT116,1,HCT-116 1,blank,3,0.3193
+M3,T12502,PLpro inhibitor,HCT116,2,HCT-116 2,treatment,1,1.6549
+M3,T12502,PLpro inhibitor,HCT116,2,HCT-116 2,treatment,2,1.4238
+M3,T12502,PLpro inhibitor,HCT116,2,HCT-116 2,treatment,3,1.6164
+M3,T12502,PLpro inhibitor,HCT116,2,HCT-116 2,normalization_reference,1,1.2811
+M3,T12502,PLpro inhibitor,HCT116,2,HCT-116 2,normalization_reference,2,1.4958
+M3,T12502,PLpro inhibitor,HCT116,2,HCT-116 2,normalization_reference,3,1.3525
+M3,T12502,PLpro inhibitor,HCT116,2,HCT-116 2,blank,1,0.2909
+M3,T12502,PLpro inhibitor,HCT116,2,HCT-116 2,blank,2,0.2863
+M3,T12502,PLpro inhibitor,HCT116,2,HCT-116 2,blank,3,0.2938
+M4,T6853,GSK591,HCT116,2,HCT-116 2,treatment,1,0.8034
+M4,T6853,GSK591,HCT116,2,HCT-116 2,treatment,2,1.311
+M4,T6853,GSK591,HCT116,2,HCT-116 2,treatment,3,1.0649
+M4,T6853,GSK591,HCT116,2,HCT-116 2,normalization_reference,1,1.2811
+M4,T6853,GSK591,HCT116,2,HCT-116 2,normalization_reference,2,1.4958
+M4,T6853,GSK591,HCT116,2,HCT-116 2,normalization_reference,3,1.3525
+M4,T6853,GSK591,HCT116,2,HCT-116 2,blank,1,0.2909
+M4,T6853,GSK591,HCT116,2,HCT-116 2,blank,2,0.2863
+M4,T6853,GSK591,HCT116,2,HCT-116 2,blank,3,0.2938
+M5,T6980,Scriptaid,HCT116,2,HCT-116 2,treatment,1,0.341
+M5,T6980,Scriptaid,HCT116,2,HCT-116 2,treatment,2,0.2965
+M5,T6980,Scriptaid,HCT116,2,HCT-116 2,treatment,3,0.2744
+M5,T6980,Scriptaid,HCT116,2,HCT-116 2,normalization_reference,1,1.2811
+M5,T6980,Scriptaid,HCT116,2,HCT-116 2,normalization_reference,2,1.4958
+M5,T6980,Scriptaid,HCT116,2,HCT-116 2,normalization_reference,3,1.3525
+M5,T6980,Scriptaid,HCT116,2,HCT-116 2,blank,1,0.2909
+M5,T6980,Scriptaid,HCT116,2,HCT-116 2,blank,2,0.2863
+M5,T6980,Scriptaid,HCT116,2,HCT-116 2,blank,3,0.2938
+M6,T60904,ERCC1-XPF-IN-2,HCT116,2,HCT-116 2,treatment,1,1.4253
+M6,T60904,ERCC1-XPF-IN-2,HCT116,2,HCT-116 2,treatment,2,1.573
+M6,T60904,ERCC1-XPF-IN-2,HCT116,2,HCT-116 2,treatment,3,1.6596
+M6,T60904,ERCC1-XPF-IN-2,HCT116,2,HCT-116 2,normalization_reference,1,1.2811
+M6,T60904,ERCC1-XPF-IN-2,HCT116,2,HCT-116 2,normalization_reference,2,1.4958
+M6,T60904,ERCC1-XPF-IN-2,HCT116,2,HCT-116 2,normalization_reference,3,1.3525
+M6,T60904,ERCC1-XPF-IN-2,HCT116,2,HCT-116 2,blank,1,0.2909
+M6,T60904,ERCC1-XPF-IN-2,HCT116,2,HCT-116 2,blank,2,0.2863
+M6,T60904,ERCC1-XPF-IN-2,HCT116,2,HCT-116 2,blank,3,0.2938
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW620,1,SW620 1,treatment,1,0.9033
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW620,1,SW620 1,treatment,2,0.8898
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW620,1,SW620 1,treatment,3,0.8327
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW620,1,SW620 1,normalization_reference,1,1.229
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW620,1,SW620 1,normalization_reference,2,1.2153
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW620,1,SW620 1,normalization_reference,3,1.2545
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW620,1,SW620 1,blank,1,0.3841
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW620,1,SW620 1,blank,2,0.3693
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW620,1,SW620 1,blank,3,0.372
+M2,T61189,E7016,SW620,1,SW620 1,treatment,1,0.9539
+M2,T61189,E7016,SW620,1,SW620 1,treatment,2,1.1093
+M2,T61189,E7016,SW620,1,SW620 1,treatment,3,1.0469
+M2,T61189,E7016,SW620,1,SW620 1,normalization_reference,1,1.229
+M2,T61189,E7016,SW620,1,SW620 1,normalization_reference,2,1.2153
+M2,T61189,E7016,SW620,1,SW620 1,normalization_reference,3,1.2545
+M2,T61189,E7016,SW620,1,SW620 1,blank,1,0.3841
+M2,T61189,E7016,SW620,1,SW620 1,blank,2,0.3693
+M2,T61189,E7016,SW620,1,SW620 1,blank,3,0.372
+M3,T12502,PLpro inhibitor,SW620,2,SW620 2,treatment,1,1.153
+M3,T12502,PLpro inhibitor,SW620,2,SW620 2,treatment,2,1.1617
+M3,T12502,PLpro inhibitor,SW620,2,SW620 2,treatment,3,1.1815
+M3,T12502,PLpro inhibitor,SW620,2,SW620 2,normalization_reference,1,1.1512
+M3,T12502,PLpro inhibitor,SW620,2,SW620 2,normalization_reference,2,1.1157
+M3,T12502,PLpro inhibitor,SW620,2,SW620 2,normalization_reference,3,1.0809
+M3,T12502,PLpro inhibitor,SW620,2,SW620 2,blank,1,0.4002
+M3,T12502,PLpro inhibitor,SW620,2,SW620 2,blank,2,0.3835
+M3,T12502,PLpro inhibitor,SW620,2,SW620 2,blank,3,0.3797
+M4,T6853,GSK591,SW620,2,SW620 2,treatment,1,1.2218
+M4,T6853,GSK591,SW620,2,SW620 2,treatment,2,1.1863
+M4,T6853,GSK591,SW620,2,SW620 2,treatment,3,1.1908
+M4,T6853,GSK591,SW620,2,SW620 2,normalization_reference,1,1.1512
+M4,T6853,GSK591,SW620,2,SW620 2,normalization_reference,2,1.1157
+M4,T6853,GSK591,SW620,2,SW620 2,normalization_reference,3,1.0809
+M4,T6853,GSK591,SW620,2,SW620 2,blank,1,0.4002
+M4,T6853,GSK591,SW620,2,SW620 2,blank,2,0.3835
+M4,T6853,GSK591,SW620,2,SW620 2,blank,3,0.3797
+M5,T6980,Scriptaid,SW620,2,SW620 2,treatment,1,0.6289
+M5,T6980,Scriptaid,SW620,2,SW620 2,treatment,2,0.6758
+M5,T6980,Scriptaid,SW620,2,SW620 2,treatment,3,0.6543
+M5,T6980,Scriptaid,SW620,2,SW620 2,normalization_reference,1,1.1512
+M5,T6980,Scriptaid,SW620,2,SW620 2,normalization_reference,2,1.1157
+M5,T6980,Scriptaid,SW620,2,SW620 2,normalization_reference,3,1.0809
+M5,T6980,Scriptaid,SW620,2,SW620 2,blank,1,0.4002
+M5,T6980,Scriptaid,SW620,2,SW620 2,blank,2,0.3835
+M5,T6980,Scriptaid,SW620,2,SW620 2,blank,3,0.3797
+M6,T60904,ERCC1-XPF-IN-2,SW620,2,SW620 2,treatment,1,0.9549
+M6,T60904,ERCC1-XPF-IN-2,SW620,2,SW620 2,treatment,2,0.9816
+M6,T60904,ERCC1-XPF-IN-2,SW620,2,SW620 2,treatment,3,0.9339
+M6,T60904,ERCC1-XPF-IN-2,SW620,2,SW620 2,normalization_reference,1,1.1512
+M6,T60904,ERCC1-XPF-IN-2,SW620,2,SW620 2,normalization_reference,2,1.1157
+M6,T60904,ERCC1-XPF-IN-2,SW620,2,SW620 2,normalization_reference,3,1.0809
+M6,T60904,ERCC1-XPF-IN-2,SW620,2,SW620 2,blank,1,0.4002
+M6,T60904,ERCC1-XPF-IN-2,SW620,2,SW620 2,blank,2,0.3835
+M6,T60904,ERCC1-XPF-IN-2,SW620,2,SW620 2,blank,3,0.3797
+M1,T9335,"1,1'-Methylenedi-2-naphthol",DLD-1,1,DLD-1 1,treatment,1,1.3695
+M1,T9335,"1,1'-Methylenedi-2-naphthol",DLD-1,1,DLD-1 1,treatment,2,1.3481
+M1,T9335,"1,1'-Methylenedi-2-naphthol",DLD-1,1,DLD-1 1,treatment,3,1.3447
+M1,T9335,"1,1'-Methylenedi-2-naphthol",DLD-1,1,DLD-1 1,normalization_reference,1,1.381
+M1,T9335,"1,1'-Methylenedi-2-naphthol",DLD-1,1,DLD-1 1,normalization_reference,2,1.2811
+M1,T9335,"1,1'-Methylenedi-2-naphthol",DLD-1,1,DLD-1 1,normalization_reference,3,1.222
+M1,T9335,"1,1'-Methylenedi-2-naphthol",DLD-1,1,DLD-1 1,blank,1,0.1832
+M1,T9335,"1,1'-Methylenedi-2-naphthol",DLD-1,1,DLD-1 1,blank,2,0.1794
+M1,T9335,"1,1'-Methylenedi-2-naphthol",DLD-1,1,DLD-1 1,blank,3,0.1802
+M2,T61189,E7016,DLD-1,1,DLD-1 1,treatment,1,0.6095
+M2,T61189,E7016,DLD-1,1,DLD-1 1,treatment,2,0.6476
+M2,T61189,E7016,DLD-1,1,DLD-1 1,treatment,3,0.6149
+M2,T61189,E7016,DLD-1,1,DLD-1 1,normalization_reference,1,1.381
+M2,T61189,E7016,DLD-1,1,DLD-1 1,normalization_reference,2,1.2811
+M2,T61189,E7016,DLD-1,1,DLD-1 1,normalization_reference,3,1.222
+M2,T61189,E7016,DLD-1,1,DLD-1 1,blank,1,0.1832
+M2,T61189,E7016,DLD-1,1,DLD-1 1,blank,2,0.1794
+M2,T61189,E7016,DLD-1,1,DLD-1 1,blank,3,0.1802
+M3,T12502,PLpro inhibitor,DLD-1,2,DLD-1 2,treatment,1,0.9703
+M3,T12502,PLpro inhibitor,DLD-1,2,DLD-1 2,treatment,2,1.325
+M3,T12502,PLpro inhibitor,DLD-1,2,DLD-1 2,treatment,3,1.2676
+M3,T12502,PLpro inhibitor,DLD-1,2,DLD-1 2,normalization_reference,1,1.2616
+M3,T12502,PLpro inhibitor,DLD-1,2,DLD-1 2,normalization_reference,2,1.2981
+M3,T12502,PLpro inhibitor,DLD-1,2,DLD-1 2,normalization_reference,3,1.2321
+M3,T12502,PLpro inhibitor,DLD-1,2,DLD-1 2,blank,1,0.1864
+M3,T12502,PLpro inhibitor,DLD-1,2,DLD-1 2,blank,2,0.1788
+M3,T12502,PLpro inhibitor,DLD-1,2,DLD-1 2,blank,3,0.1814
+M4,T6853,GSK591,DLD-1,2,DLD-1 2,treatment,1,1.0842
+M4,T6853,GSK591,DLD-1,2,DLD-1 2,treatment,2,1.3088
+M4,T6853,GSK591,DLD-1,2,DLD-1 2,treatment,3,1.3029
+M4,T6853,GSK591,DLD-1,2,DLD-1 2,normalization_reference,1,1.2616
+M4,T6853,GSK591,DLD-1,2,DLD-1 2,normalization_reference,2,1.2981
+M4,T6853,GSK591,DLD-1,2,DLD-1 2,normalization_reference,3,1.2321
+M4,T6853,GSK591,DLD-1,2,DLD-1 2,blank,1,0.1864
+M4,T6853,GSK591,DLD-1,2,DLD-1 2,blank,2,0.1788
+M4,T6853,GSK591,DLD-1,2,DLD-1 2,blank,3,0.1814
+M5,T6980,Scriptaid,DLD-1,2,DLD-1 2,treatment,1,0.2608
+M5,T6980,Scriptaid,DLD-1,2,DLD-1 2,treatment,2,0.2761
+M5,T6980,Scriptaid,DLD-1,2,DLD-1 2,treatment,3,0.2608
+M5,T6980,Scriptaid,DLD-1,2,DLD-1 2,normalization_reference,1,1.2616
+M5,T6980,Scriptaid,DLD-1,2,DLD-1 2,normalization_reference,2,1.2981
+M5,T6980,Scriptaid,DLD-1,2,DLD-1 2,normalization_reference,3,1.2321
+M5,T6980,Scriptaid,DLD-1,2,DLD-1 2,blank,1,0.1864
+M5,T6980,Scriptaid,DLD-1,2,DLD-1 2,blank,2,0.1788
+M5,T6980,Scriptaid,DLD-1,2,DLD-1 2,blank,3,0.1814
+M6,T60904,ERCC1-XPF-IN-2,DLD-1,2,DLD-1 2,treatment,1,0.9582
+M6,T60904,ERCC1-XPF-IN-2,DLD-1,2,DLD-1 2,treatment,2,1.1542
+M6,T60904,ERCC1-XPF-IN-2,DLD-1,2,DLD-1 2,treatment,3,1.1488
+M6,T60904,ERCC1-XPF-IN-2,DLD-1,2,DLD-1 2,normalization_reference,1,1.2616
+M6,T60904,ERCC1-XPF-IN-2,DLD-1,2,DLD-1 2,normalization_reference,2,1.2981
+M6,T60904,ERCC1-XPF-IN-2,DLD-1,2,DLD-1 2,normalization_reference,3,1.2321
+M6,T60904,ERCC1-XPF-IN-2,DLD-1,2,DLD-1 2,blank,1,0.1864
+M6,T60904,ERCC1-XPF-IN-2,DLD-1,2,DLD-1 2,blank,2,0.1788
+M6,T60904,ERCC1-XPF-IN-2,DLD-1,2,DLD-1 2,blank,3,0.1814
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HT-29,1,HT-29 1,treatment,1,1.6869
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HT-29,1,HT-29 1,treatment,2,1.5923
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HT-29,1,HT-29 1,treatment,3,1.5255
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HT-29,1,HT-29 1,normalization_reference,1,2.0381
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HT-29,1,HT-29 1,normalization_reference,2,1.867
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HT-29,1,HT-29 1,normalization_reference,3,1.7652
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HT-29,1,HT-29 1,blank,1,0.1886
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HT-29,1,HT-29 1,blank,2,0.1846
+M1,T9335,"1,1'-Methylenedi-2-naphthol",HT-29,1,HT-29 1,blank,3,0.1829
+M2,T61189,E7016,HT-29,1,HT-29 1,treatment,1,1.3559
+M2,T61189,E7016,HT-29,1,HT-29 1,treatment,2,1.319
+M2,T61189,E7016,HT-29,1,HT-29 1,treatment,3,1.1808
+M2,T61189,E7016,HT-29,1,HT-29 1,normalization_reference,1,2.0381
+M2,T61189,E7016,HT-29,1,HT-29 1,normalization_reference,2,1.867
+M2,T61189,E7016,HT-29,1,HT-29 1,normalization_reference,3,1.7652
+M2,T61189,E7016,HT-29,1,HT-29 1,blank,1,0.1886
+M2,T61189,E7016,HT-29,1,HT-29 1,blank,2,0.1846
+M2,T61189,E7016,HT-29,1,HT-29 1,blank,3,0.1829
+M3,T12502,PLpro inhibitor,HT-29,2,HT-29 2,treatment,1,1.7374
+M3,T12502,PLpro inhibitor,HT-29,2,HT-29 2,treatment,2,1.8137
+M3,T12502,PLpro inhibitor,HT-29,2,HT-29 2,treatment,3,1.8327
+M3,T12502,PLpro inhibitor,HT-29,2,HT-29 2,normalization_reference,1,2.0179
+M3,T12502,PLpro inhibitor,HT-29,2,HT-29 2,normalization_reference,2,1.8466
+M3,T12502,PLpro inhibitor,HT-29,2,HT-29 2,normalization_reference,3,1.8658
+M3,T12502,PLpro inhibitor,HT-29,2,HT-29 2,blank,1,0.1952
+M3,T12502,PLpro inhibitor,HT-29,2,HT-29 2,blank,2,0.1847
+M3,T12502,PLpro inhibitor,HT-29,2,HT-29 2,blank,3,0.1932
+M4,T6853,GSK591,HT-29,2,HT-29 2,treatment,1,1.4457
+M4,T6853,GSK591,HT-29,2,HT-29 2,treatment,2,1.6134
+M4,T6853,GSK591,HT-29,2,HT-29 2,treatment,3,1.6367
+M4,T6853,GSK591,HT-29,2,HT-29 2,normalization_reference,1,2.0179
+M4,T6853,GSK591,HT-29,2,HT-29 2,normalization_reference,2,1.8466
+M4,T6853,GSK591,HT-29,2,HT-29 2,normalization_reference,3,1.8658
+M4,T6853,GSK591,HT-29,2,HT-29 2,blank,1,0.1952
+M4,T6853,GSK591,HT-29,2,HT-29 2,blank,2,0.1847
+M4,T6853,GSK591,HT-29,2,HT-29 2,blank,3,0.1932
+M5,T6980,Scriptaid,HT-29,2,HT-29 2,treatment,1,0.3842
+M5,T6980,Scriptaid,HT-29,2,HT-29 2,treatment,2,0.3813
+M5,T6980,Scriptaid,HT-29,2,HT-29 2,treatment,3,0.3302
+M5,T6980,Scriptaid,HT-29,2,HT-29 2,normalization_reference,1,2.0179
+M5,T6980,Scriptaid,HT-29,2,HT-29 2,normalization_reference,2,1.8466
+M5,T6980,Scriptaid,HT-29,2,HT-29 2,normalization_reference,3,1.8658
+M5,T6980,Scriptaid,HT-29,2,HT-29 2,blank,1,0.1952
+M5,T6980,Scriptaid,HT-29,2,HT-29 2,blank,2,0.1847
+M5,T6980,Scriptaid,HT-29,2,HT-29 2,blank,3,0.1932
+M6,T60904,ERCC1-XPF-IN-2,HT-29,2,HT-29 2,treatment,1,1.8353
+M6,T60904,ERCC1-XPF-IN-2,HT-29,2,HT-29 2,treatment,2,1.9799
+M6,T60904,ERCC1-XPF-IN-2,HT-29,2,HT-29 2,treatment,3,1.919
+M6,T60904,ERCC1-XPF-IN-2,HT-29,2,HT-29 2,normalization_reference,1,2.0179
+M6,T60904,ERCC1-XPF-IN-2,HT-29,2,HT-29 2,normalization_reference,2,1.8466
+M6,T60904,ERCC1-XPF-IN-2,HT-29,2,HT-29 2,normalization_reference,3,1.8658
+M6,T60904,ERCC1-XPF-IN-2,HT-29,2,HT-29 2,blank,1,0.1952
+M6,T60904,ERCC1-XPF-IN-2,HT-29,2,HT-29 2,blank,2,0.1847
+M6,T60904,ERCC1-XPF-IN-2,HT-29,2,HT-29 2,blank,3,0.1932
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW480,1,SW480 1,treatment,1,0.9403
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW480,1,SW480 1,treatment,2,0.9325
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW480,1,SW480 1,treatment,3,0.9319
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW480,1,SW480 1,normalization_reference,1,1.183
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW480,1,SW480 1,normalization_reference,2,1.1657
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW480,1,SW480 1,normalization_reference,3,1.154
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW480,1,SW480 1,blank,1,0.3476
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW480,1,SW480 1,blank,2,0.3241
+M1,T9335,"1,1'-Methylenedi-2-naphthol",SW480,1,SW480 1,blank,3,0.3378
+M2,T61189,E7016,SW480,1,SW480 1,treatment,1,0.7714
+M2,T61189,E7016,SW480,1,SW480 1,treatment,2,0.773
+M2,T61189,E7016,SW480,1,SW480 1,treatment,3,0.7877
+M2,T61189,E7016,SW480,1,SW480 1,normalization_reference,1,1.183
+M2,T61189,E7016,SW480,1,SW480 1,normalization_reference,2,1.1657
+M2,T61189,E7016,SW480,1,SW480 1,normalization_reference,3,1.154
+M2,T61189,E7016,SW480,1,SW480 1,blank,1,0.3476
+M2,T61189,E7016,SW480,1,SW480 1,blank,2,0.3241
+M2,T61189,E7016,SW480,1,SW480 1,blank,3,0.3378
+M3,T12502,PLpro inhibitor,SW480,2,SW480 2,treatment,1,1.0953
+M3,T12502,PLpro inhibitor,SW480,2,SW480 2,treatment,2,1.1118
+M3,T12502,PLpro inhibitor,SW480,2,SW480 2,treatment,3,1.1238
+M3,T12502,PLpro inhibitor,SW480,2,SW480 2,normalization_reference,1,1.1675
+M3,T12502,PLpro inhibitor,SW480,2,SW480 2,normalization_reference,2,1.1665
+M3,T12502,PLpro inhibitor,SW480,2,SW480 2,normalization_reference,3,1.1679
+M3,T12502,PLpro inhibitor,SW480,2,SW480 2,blank,1,0.3461
+M3,T12502,PLpro inhibitor,SW480,2,SW480 2,blank,2,0.316
+M3,T12502,PLpro inhibitor,SW480,2,SW480 2,blank,3,0.3284
+M4,T6853,GSK591,SW480,2,SW480 2,treatment,1,0.9703
+M4,T6853,GSK591,SW480,2,SW480 2,treatment,2,1.0821
+M4,T6853,GSK591,SW480,2,SW480 2,treatment,3,1.0824
+M4,T6853,GSK591,SW480,2,SW480 2,normalization_reference,1,1.1675
+M4,T6853,GSK591,SW480,2,SW480 2,normalization_reference,2,1.1665
+M4,T6853,GSK591,SW480,2,SW480 2,normalization_reference,3,1.1679
+M4,T6853,GSK591,SW480,2,SW480 2,blank,1,0.3461
+M4,T6853,GSK591,SW480,2,SW480 2,blank,2,0.316
+M4,T6853,GSK591,SW480,2,SW480 2,blank,3,0.3284
+M5,T6980,Scriptaid,SW480,2,SW480 2,treatment,1,0.5196
+M5,T6980,Scriptaid,SW480,2,SW480 2,treatment,2,0.5098
+M5,T6980,Scriptaid,SW480,2,SW480 2,treatment,3,0.5093
+M5,T6980,Scriptaid,SW480,2,SW480 2,normalization_reference,1,1.1675
+M5,T6980,Scriptaid,SW480,2,SW480 2,normalization_reference,2,1.1665
+M5,T6980,Scriptaid,SW480,2,SW480 2,normalization_reference,3,1.1679
+M5,T6980,Scriptaid,SW480,2,SW480 2,blank,1,0.3461
+M5,T6980,Scriptaid,SW480,2,SW480 2,blank,2,0.316
+M5,T6980,Scriptaid,SW480,2,SW480 2,blank,3,0.3284
+M6,T60904,ERCC1-XPF-IN-2,SW480,2,SW480 2,treatment,1,0.9629
+M6,T60904,ERCC1-XPF-IN-2,SW480,2,SW480 2,treatment,2,0.9579
+M6,T60904,ERCC1-XPF-IN-2,SW480,2,SW480 2,treatment,3,0.9694
+M6,T60904,ERCC1-XPF-IN-2,SW480,2,SW480 2,normalization_reference,1,1.1675
+M6,T60904,ERCC1-XPF-IN-2,SW480,2,SW480 2,normalization_reference,2,1.1665
+M6,T60904,ERCC1-XPF-IN-2,SW480,2,SW480 2,normalization_reference,3,1.1679
+M6,T60904,ERCC1-XPF-IN-2,SW480,2,SW480 2,blank,1,0.3461
+M6,T60904,ERCC1-XPF-IN-2,SW480,2,SW480 2,blank,2,0.316
+M6,T60904,ERCC1-XPF-IN-2,SW480,2,SW480 2,blank,3,0.3284
+M1,T9335,"1,1'-Methylenedi-2-naphthol",LoVo,1,LOVO 1,treatment,1,1.336
+M1,T9335,"1,1'-Methylenedi-2-naphthol",LoVo,1,LOVO 1,treatment,2,1.2923
+M1,T9335,"1,1'-Methylenedi-2-naphthol",LoVo,1,LOVO 1,treatment,3,1.363
+M1,T9335,"1,1'-Methylenedi-2-naphthol",LoVo,1,LOVO 1,normalization_reference,1,1.5127
+M1,T9335,"1,1'-Methylenedi-2-naphthol",LoVo,1,LOVO 1,normalization_reference,2,1.511
+M1,T9335,"1,1'-Methylenedi-2-naphthol",LoVo,1,LOVO 1,normalization_reference,3,1.5146
+M1,T9335,"1,1'-Methylenedi-2-naphthol",LoVo,1,LOVO 1,blank,1,0.2342
+M1,T9335,"1,1'-Methylenedi-2-naphthol",LoVo,1,LOVO 1,blank,2,0.2221
+M1,T9335,"1,1'-Methylenedi-2-naphthol",LoVo,1,LOVO 1,blank,3,0.2346
+M2,T61189,E7016,LoVo,1,LOVO 1,treatment,1,0.3414
+M2,T61189,E7016,LoVo,1,LOVO 1,treatment,2,0.3501
+M2,T61189,E7016,LoVo,1,LOVO 1,treatment,3,0.355
+M2,T61189,E7016,LoVo,1,LOVO 1,normalization_reference,1,1.5127
+M2,T61189,E7016,LoVo,1,LOVO 1,normalization_reference,2,1.511
+M2,T61189,E7016,LoVo,1,LOVO 1,normalization_reference,3,1.5146
+M2,T61189,E7016,LoVo,1,LOVO 1,blank,1,0.2342
+M2,T61189,E7016,LoVo,1,LOVO 1,blank,2,0.2221
+M2,T61189,E7016,LoVo,1,LOVO 1,blank,3,0.2346
+M3,T12502,PLpro inhibitor,LoVo,2,LOVO 2,treatment,1,1.4035
+M3,T12502,PLpro inhibitor,LoVo,2,LOVO 2,treatment,2,1.3341
+M3,T12502,PLpro inhibitor,LoVo,2,LOVO 2,treatment,3,1.3208
+M3,T12502,PLpro inhibitor,LoVo,2,LOVO 2,normalization_reference,1,1.4387
+M3,T12502,PLpro inhibitor,LoVo,2,LOVO 2,normalization_reference,2,1.4317
+M3,T12502,PLpro inhibitor,LoVo,2,LOVO 2,normalization_reference,3,1.3892
+M3,T12502,PLpro inhibitor,LoVo,2,LOVO 2,blank,1,0.2089
+M3,T12502,PLpro inhibitor,LoVo,2,LOVO 2,blank,2,0.1969
+M3,T12502,PLpro inhibitor,LoVo,2,LOVO 2,blank,3,0.2136
+M4,T6853,GSK591,LoVo,2,LOVO 2,treatment,1,1.0991
+M4,T6853,GSK591,LoVo,2,LOVO 2,treatment,2,1.077
+M4,T6853,GSK591,LoVo,2,LOVO 2,treatment,3,1.0754
+M4,T6853,GSK591,LoVo,2,LOVO 2,normalization_reference,1,1.4387
+M4,T6853,GSK591,LoVo,2,LOVO 2,normalization_reference,2,1.4317
+M4,T6853,GSK591,LoVo,2,LOVO 2,normalization_reference,3,1.3892
+M4,T6853,GSK591,LoVo,2,LOVO 2,blank,1,0.2089
+M4,T6853,GSK591,LoVo,2,LOVO 2,blank,2,0.1969
+M4,T6853,GSK591,LoVo,2,LOVO 2,blank,3,0.2136
+M5,T6980,Scriptaid,LoVo,2,LOVO 2,treatment,1,0.2596
+M5,T6980,Scriptaid,LoVo,2,LOVO 2,treatment,2,0.269
+M5,T6980,Scriptaid,LoVo,2,LOVO 2,treatment,3,0.2524
+M5,T6980,Scriptaid,LoVo,2,LOVO 2,normalization_reference,1,1.4387
+M5,T6980,Scriptaid,LoVo,2,LOVO 2,normalization_reference,2,1.4317
+M5,T6980,Scriptaid,LoVo,2,LOVO 2,normalization_reference,3,1.3892
+M5,T6980,Scriptaid,LoVo,2,LOVO 2,blank,1,0.2089
+M5,T6980,Scriptaid,LoVo,2,LOVO 2,blank,2,0.1969
+M5,T6980,Scriptaid,LoVo,2,LOVO 2,blank,3,0.2136
+M6,T60904,ERCC1-XPF-IN-2,LoVo,2,LOVO 2,treatment,1,1.1035
+M6,T60904,ERCC1-XPF-IN-2,LoVo,2,LOVO 2,treatment,2,1.1238
+M6,T60904,ERCC1-XPF-IN-2,LoVo,2,LOVO 2,treatment,3,1.1202
+M6,T60904,ERCC1-XPF-IN-2,LoVo,2,LOVO 2,normalization_reference,1,1.4387
+M6,T60904,ERCC1-XPF-IN-2,LoVo,2,LOVO 2,normalization_reference,2,1.4317
+M6,T60904,ERCC1-XPF-IN-2,LoVo,2,LOVO 2,normalization_reference,3,1.3892
+M6,T60904,ERCC1-XPF-IN-2,LoVo,2,LOVO 2,blank,1,0.2089
+M6,T60904,ERCC1-XPF-IN-2,LoVo,2,LOVO 2,blank,2,0.1969
+M6,T60904,ERCC1-XPF-IN-2,LoVo,2,LOVO 2,blank,3,0.2136

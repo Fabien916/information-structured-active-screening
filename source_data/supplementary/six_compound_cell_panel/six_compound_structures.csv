@@ -1,0 +1,7 @@
+panel_id,exact_smiles
+M1,Oc1ccc2ccccc2c1Cc1c(O)ccc2ccccc12
+M2,O=c1[nH]nc2c3c(cccc13)Oc1ccc(CN3CCC(O)CC3)cc1-2
+M3,CC(=O)Nc1ccc(C)c(C(=O)N[C@H](C)c2cccc3ccccc23)c1
+M4,O=C(NC[C@H](O)CN1CCc2ccccc2C1)c1ccnc(NC2CCC2)c1
+M5,O=C(CCCCCN1C(=O)c2cccc3cccc(c23)C1=O)NO
+M6,O=C(Cc1ccc(Cl)cc1Cl)NCc1ccc(O)c(O)c1

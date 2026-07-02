@@ -1,0 +1,38 @@
+# Companion mobo config for --config config/surrogate/config.yaml
+paths:
+  init_library_csv: data_trim/tcm_library_heavy40_vocab9.csv
+  init_library_smiles_col: smiles_canonical
+  init_encoder_ckpt: runs/vae_bo_baseline_8UN4_heavy40_vocab9/vae_bo/init_encoder_pretrain/tensornet_fp_prop_encoder.pt
+  init_training_dataset_root: dataset/8UN4
+  init_ligand_vocab_file: null
+  output_dir: runs/vae_bo_8UN4_strong_budgethv
+
+init_selection:
+  library_max_rows: 0
+  butina_cutoff: 0.6
+  fp_radius: 2
+  fp_bits: 2048
+  init_train_valid_total: 480
+  holdout_test_total: 120
+  selection_seed: 42
+
+experiment:
+  methods:
+  - vae_bo
+  rounds: 20
+  score_eps: 0.0
+  seed: 42
+
+vae_bo:
+  vae_ckpt: runs/vae_tcm_library_heavy40_vocab9_selfies_baseline/standard_selfies_vae.pt
+  latent_pool_size: 6000
+  decode_oversample: 12
+  resample_rounds: 8
+  decode_attempts: 12
+  decode_noise_std: 0.05
+  sample_temperature: 1.0
+  sample_top_k: 100
+  encode_batch_size: 256
+  score_batch_size: 64
+  baseline_cap: 1024
+  mc_samples: 64

@@ -1,0 +1,7 @@
+panel_id,compound_id,compound_name,source_compound_index,source_plate_id,assay_concentration_uM
+M1,T9335,"1,1'-Methylenedi-2-naphthol",17,1,10
+M2,T61189,E7016,13,1,10
+M3,T12502,PLpro inhibitor,21,2,10
+M4,T6853,GSK591,22,2,10
+M5,T6980,Scriptaid,27,2,10
+M6,T60904,ERCC1-XPF-IN-2,19,2,10

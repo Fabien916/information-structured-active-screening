@@ -1,0 +1,2 @@
+target,source,round,candidate_n,incumbent_n,batch_size,one_shot_mean_hvi_median_s,segmented_ehvi_median_s,sequential_mean_hvi_median_s,seq_vs_one_shot_mean_hvi,seq_vs_segmented_ehvi,one_shot_mean_hvi_repeats_s,segmented_ehvi_repeats_s,sequential_mean_hvi_repeats_s
+ESR2,analytic_ehvi,1,2000,500,100,0.008666899986565113,0.011554900091141462,4.044531300198287,466.66412517369145,350.0273709245671,0.015544;0.008667;0.008352,0.013011;0.011555;0.010928,4.044531

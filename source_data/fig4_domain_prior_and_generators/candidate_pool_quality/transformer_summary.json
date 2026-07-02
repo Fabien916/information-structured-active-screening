@@ -1,0 +1,32 @@
+{
+  "model": "transformer",
+  "batch_size": 256,
+  "epochs": 60,
+  "params": 5420198,
+  "best_epoch": 60,
+  "best_val_loss": 0.4856716500861304,
+  "test": {
+    "loss": 0.48562378117016386,
+    "acc": 0.8248136651308504,
+    "ppl": 1.6251884546831514
+  },
+  "gen": {
+    "validity": 0.737,
+    "uniqueness": 0.9823609226594301,
+    "novelty": 0.8667127071823204,
+    "n_gen": 2000,
+    "n_valid": 1474
+  },
+  "test_sample": {
+    "validity": 0.737,
+    "uniqueness": 0.9823609226594301,
+    "novelty": 0.8667127071823204,
+    "n_gen": 2000,
+    "n_valid": 1474,
+    "fcd": 1.5881700569862076,
+    "fcd_n": 1474
+  },
+  "n_train": 27480,
+  "n_val": 3435,
+  "n_test": 3435
+}

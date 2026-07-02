@@ -1,0 +1,16 @@
+trial_name,label,seed,n,k,hit@1pct
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,seed42,38879,389,0.02313624678663239
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,seed43,38879,389,0.028277634961439587
+fingerprint_gp_gaussian,ECFP4-Tanimoto GP,seed44,38879,389,0.028277634961439587
+gin_small_gaussian,2D GIN heteroscedastic,seed42,38879,389,0.31876606683804626
+gin_small_gaussian,2D GIN heteroscedastic,seed43,38879,389,0.2493573264781491
+gin_small_gaussian,2D GIN heteroscedastic,seed44,38879,389,0.29562982005141386
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,seed42,38874,389,0.2262210796915167
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,seed43,38874,389,0.19794344473007713
+tensornet_scratch_bayes_mlp,3D TensorNet Bayesian head,seed44,38874,389,0.26735218508997427
+tensornet_scratch_nig,3D TensorNet evidential NIG,seed42,38874,389,0.35218508997429304
+tensornet_scratch_nig,3D TensorNet evidential NIG,seed43,38874,389,0.29562982005141386
+tensornet_scratch_nig,3D TensorNet evidential NIG,seed44,38874,389,0.29562982005141386
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,seed42,38874,389,0.34704370179948585
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,seed43,38874,389,0.30848329048843187
+tensornet_scratch_gaussian,3D TensorNet heteroscedastic ensemble,seed44,38874,389,0.3393316195372751

@@ -1,0 +1,5 @@
+trial_name,label,spearman,rmse,nll,calibration_gap,hit@10,ndcg@10,coverage_1sigma,coverage_2sigma
+fingerprint_gp_gaussian,Tanimoto-kernel GP,0.608182,1.271121,2.306878,0.703103,0.0,0.483875,0.404349,0.705514
+gin_small_gaussian,GIN small Gaussian,0.883222,0.621697,-0.057009,0.043739,0.0,0.665615,0.696786,0.945197
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,0.892917,0.584266,-0.198631,0.039253,0.1,0.68363,0.728593,0.96535
+tensornet_scratch_nig,TensorNet scratch NIG,0.880814,0.616104,0.779249,0.064397,0.166667,0.715643,0.746729,0.968471

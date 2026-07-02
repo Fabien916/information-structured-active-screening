@@ -1,0 +1,8 @@
+mobo_generate:
+  generator:
+    kind: vae
+    ckpt: runs/vae_tcm_library_heavy40_vocab9_selfies_baseline/standard_selfies_vae.pt
+  sample:
+    sample_batch: 500
+    temperature: 1.0
+    top_k: 80

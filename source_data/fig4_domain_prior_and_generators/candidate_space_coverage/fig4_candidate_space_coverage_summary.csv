@@ -1,0 +1,13 @@
+panel,method,front_molecules,front_fraction,total_front_molecules,candidate_molecules,candidate_scaffolds,candidate_scaffolds_shared_with_tcm,candidate_scaffolds_new_vs_tcm,candidate_new_scaffold_fraction,selected_molecules,selected_scaffolds,selected_scaffolds_shared_with_tcm,selected_scaffolds_new_vs_tcm,selected_new_scaffold_fraction
+pooled_terminal_front,qPMHI,93.0,0.9029126213592233,103.0,,,,,,,,,,
+pooled_terminal_front,JANUS,5.0,0.04854368932038835,103.0,,,,,,,,,,
+pooled_terminal_front,GraphGA,5.0,0.04854368932038835,103.0,,,,,,,,,,
+pooled_terminal_front,VAE+BO,0.0,0.0,103.0,,,,,,,,,,
+tsne_candidate_scaffolds,qPMHI,,,,98987.0,33946.0,1700.0,32246.0,0.9499204619100925,,,,,
+tsne_candidate_scaffolds,JANUS,,,,14298.0,9150.0,555.0,8595.0,0.9393442622950819,,,,,
+tsne_candidate_scaffolds,GraphGA,,,,4491.0,1994.0,463.0,1531.0,0.7678034102306921,,,,,
+tsne_candidate_scaffolds,VAE+BO,,,,1191.0,820.0,39.0,781.0,0.9524390243902439,,,,,
+tsne_selected_scaffolds,qPMHI,,,,,,,,,1172.0,736.0,131.0,605.0,0.8220108695652174
+tsne_selected_scaffolds,JANUS,,,,,,,,,1276.0,1037.0,105.0,932.0,0.8987463837994214
+tsne_selected_scaffolds,GraphGA,,,,,,,,,1250.0,665.0,95.0,570.0,0.8571428571428571
+tsne_selected_scaffolds,VAE+BO,,,,,,,,,1165.0,798.0,39.0,759.0,0.9511278195488722

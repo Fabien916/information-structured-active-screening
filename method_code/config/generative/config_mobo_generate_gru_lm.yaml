@@ -1,0 +1,8 @@
+mobo_generate:
+  generator:
+    kind: gru_lm
+    ckpt: runs/smiles_lm_benchmark_tcm_merged_heavy40_vocab9/gru_best.pt
+  sample:
+    sample_batch: 500
+    temperature: 1.0
+    top_k: 0

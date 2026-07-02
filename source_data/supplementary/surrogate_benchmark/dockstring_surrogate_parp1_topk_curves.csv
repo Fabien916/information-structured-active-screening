@@ -1,0 +1,45 @@
+trial_name,label,k,cum_best_dock,cum_mean_dock,cum_hit_rate
+fingerprint_gp_gaussian,Tanimoto-kernel GP,1,-6.4,-6.4,0.0
+fingerprint_gp_gaussian,Tanimoto-kernel GP,2,-7.5,-6.95,0.0
+fingerprint_gp_gaussian,Tanimoto-kernel GP,5,-9.0,-7.82,0.0
+fingerprint_gp_gaussian,Tanimoto-kernel GP,10,-10.5,-8.32,0.2
+fingerprint_gp_gaussian,Tanimoto-kernel GP,20,-11.1,-8.649999999999999,0.25
+fingerprint_gp_gaussian,Tanimoto-kernel GP,50,-11.2,-8.751999999999999,0.16
+fingerprint_gp_gaussian,Tanimoto-kernel GP,100,-11.8,-8.823999999999995,0.2
+fingerprint_gp_gaussian,Tanimoto-kernel GP,200,-11.8,-8.820499999999994,0.2
+fingerprint_gp_gaussian,Tanimoto-kernel GP,500,-12.5,-8.817799999999993,0.214
+fingerprint_gp_gaussian,Tanimoto-kernel GP,1000,-13.4,-9.4227,0.378
+fingerprint_gp_gaussian,Tanimoto-kernel GP,2000,-13.4,-9.686150000000001,0.44
+gin_small_gaussian,GIN small Gaussian,1,-10.9,-10.9,1.0
+gin_small_gaussian,GIN small Gaussian,2,-10.9,-10.45,1.0
+gin_small_gaussian,GIN small Gaussian,5,-11.9,-10.819999999999999,1.0
+gin_small_gaussian,GIN small Gaussian,10,-12.9,-11.16,0.9
+gin_small_gaussian,GIN small Gaussian,20,-12.9,-11.035,0.9
+gin_small_gaussian,GIN small Gaussian,50,-12.9,-11.248,0.94
+gin_small_gaussian,GIN small Gaussian,100,-12.9,-11.167,0.91
+gin_small_gaussian,GIN small Gaussian,200,-13.5,-11.121500000000005,0.895
+gin_small_gaussian,GIN small Gaussian,500,-13.6,-10.9672,0.874
+gin_small_gaussian,GIN small Gaussian,1000,-14.3,-10.838200000000002,0.853
+gin_small_gaussian,GIN small Gaussian,2000,-14.3,-10.671250000000002,0.8175
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,1,-9.8,-9.8,0.0
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,2,-14.3,-12.05,0.5
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,5,-14.3,-9.620000000000001,0.2
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,10,-14.3,-10.71,0.6
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,20,-14.3,-10.815,0.7
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,50,-14.3,-11.113999999999997,0.78
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,100,-14.3,-11.181999999999999,0.87
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,200,-14.3,-11.169000000000006,0.87
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,500,-14.3,-11.067599999999993,0.9
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,1000,-14.3,-10.9192,0.88
+tensornet_scratch_gaussian,TensorNet scratch Gaussian,2000,-14.3,-10.731399999999997,0.844
+tensornet_scratch_nig,TensorNet scratch NIG,1,-14.3,-14.3,1.0
+tensornet_scratch_nig,TensorNet scratch NIG,2,-14.3,-10.95,0.5
+tensornet_scratch_nig,TensorNet scratch NIG,5,-14.3,-10.08,0.4
+tensornet_scratch_nig,TensorNet scratch NIG,10,-14.3,-10.450000000000001,0.5
+tensornet_scratch_nig,TensorNet scratch NIG,20,-14.3,-10.840000000000002,0.75
+tensornet_scratch_nig,TensorNet scratch NIG,50,-14.3,-11.084000000000001,0.9
+tensornet_scratch_nig,TensorNet scratch NIG,100,-14.3,-11.115000000000004,0.93
+tensornet_scratch_nig,TensorNet scratch NIG,200,-14.3,-11.169999999999998,0.92
+tensornet_scratch_nig,TensorNet scratch NIG,500,-14.3,-10.977199999999984,0.894
+tensornet_scratch_nig,TensorNet scratch NIG,1000,-14.3,-10.859199999999982,0.866
+tensornet_scratch_nig,TensorNet scratch NIG,2000,-14.3,-10.669500000000001,0.815

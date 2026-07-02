@@ -1,0 +1,36 @@
+trial_name: tensornet_scratch_bayes_mlp
+trial_family: scratch_bayes
+backbone: tensornet
+uncertainty_mode: bayes
+needs_pretrain: false
+freeze_backbone: false
+ensemble_heads: 1
+ensemble_scheme: full
+model:
+  hidden_dim: 48
+  num_layers: 3
+  dropout: 0.1
+  torchmd:
+    embedding_dim: 72
+    num_layers: 3
+    num_rbf: 32
+    rbf_type: expnorm
+    trainable_rbf: false
+    activation: silu
+    cutoff_lower: 0.0
+    cutoff_upper: 4.5
+    max_num_neighbors: 64
+    dropout: 0.1
+    reduce_op: sum
+    equivariance_invariance_group: SO(3)
+    static_shapes: true
+    check_errors: true
+    head_hidden_dim: 96
+    head_num_layers: 3
+    bayes_beta: 1.0e-6
+train:
+  epochs: 80
+  batch_size: 32
+  lr: 3.0e-4
+  encoder_lr: 2.0e-5
+  weight_decay: 1.0e-5

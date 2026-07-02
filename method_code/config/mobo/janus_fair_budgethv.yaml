@@ -1,0 +1,40 @@
+# Companion mobo config for fair oracle-budget JANUS comparison.
+paths:
+  init_library_csv: data_trim/tcm_library_heavy40_vocab9.csv
+  init_library_smiles_col: smiles_canonical
+  init_encoder_ckpt: null
+  init_training_dataset_root: dataset/8UN4
+  init_ligand_vocab_file: null
+  output_dir: runs/janus_8UN4_fair_budgethv
+
+init_selection:
+  library_max_rows: 0
+  butina_cutoff: 0.6
+  fp_radius: 2
+  fp_bits: 2048
+  init_train_valid_total: 480
+  holdout_test_total: 120
+  selection_seed: 42
+
+experiment:
+  rounds: 10
+  seed: 42
+
+population_baseline:
+  method: janus
+  population_size: 192
+  generations: 1
+  candidate_keep_topk: 512
+  start_pool_size: 2000
+  max_smiles_len: 120
+  num_sample_frags: 16
+  explr_num_random_samples: 8
+  explr_num_mutations: 8
+  crossover_num_random_samples: 2
+  exploit_num_random_samples: 8
+  exploit_num_mutations: 8
+  top_mols: 8
+  num_exchanges: 2
+  max_filter_rounds: 480
+  score_flush_size: 512
+  oracle_topk_per_generation: 32

@@ -1,0 +1,23 @@
+paths:
+  init_library_csv: data_trim/tcm_library_heavy40_vocab9.csv
+  init_library_smiles_col: smiles_canonical
+  init_encoder_ckpt: null
+  init_training_dataset_root: dataset/8UN4
+  init_ligand_vocab_file: null
+  output_dir: runs/mobo_main_experiment_8UN4_heavy40_vocab9
+init_selection:
+  library_max_rows: 0
+  butina_cutoff: 0.6
+  fp_radius: 2
+  fp_bits: 2048
+  init_train_valid_total: 480
+  holdout_test_total: 120
+  selection_seed: 123
+experiment:
+  methods:
+  - qnehvi
+  - qpmhi
+  - random
+  rounds: 10
+  score_eps: 0.0
+  seed: 123

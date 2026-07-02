@@ -1,0 +1,81 @@
+﻿data:
+  input_csv: data_trim/tcm_library_heavy40_vocab9.csv
+  smiles_column: smiles_canonical
+  input_is_selfies: false
+  token_type: selfies
+  min_len: 1
+  max_len: 96
+  train_split: 0.9
+  seed: 42
+
+model:
+  architecture: standard_smiles_vae
+  token_emb_dim: 128
+  encoder_hidden_dim: 192
+  encoder_layers: 1
+  encoder_bidirectional: true
+  latent_dim: 128
+  decoder_hidden_dim: 192
+  decoder_layers: 2
+  dropout: 0.1
+
+train:
+  batch_size: 64
+  epochs: 240
+  lr: 2.0e-4
+  lr_scheduler: cosine
+  lr_warmup_epochs: 10
+  min_lr: 1.0e-5
+  beta: 0.06
+  beta_schedule: linear
+  beta_start: 0.0
+  beta_warmup_epochs: 160
+  free_bits_per_dim: 0.02
+  grad_clip: 1.0
+  num_workers: 0
+  device: auto
+  save_path: runs/vae_tcm_library_heavy40_vocab9_selfies_baseline/standard_selfies_vae.pt
+  save_best: true
+  log_every: 50
+  early_stop: true
+  early_stop_patience: 50
+  early_stop_min_delta: 0.001
+  early_stop_min_epochs: 100
+
+sample:
+  enabled: true
+  every_epochs: 10
+  num_samples: 8
+  max_len: 96
+  temperature: 1.0
+  top_k: 40
+
+eval:
+  enabled: true
+  every_epochs: 10
+  num_samples: 3000
+  max_len: 120
+  temperature: 1.0
+  top_k: 40
+  report_examples: 5
+
+final_eval:
+  enabled: true
+  num_samples: 10000
+  batch_size: 256
+  max_len: 120
+  temperature: 1.0
+  top_k: 40
+  fp_radius: 2
+  fp_nbits: 2048
+  diversity_samples: 2000
+  fcd_device: cpu
+  fcd_n_jobs: 8
+  compute_fcd: true
+  search:
+    enabled: true
+    temperatures: [0.9, 1.0]
+    top_k: [40, 80]
+    num_samples: 5000
+    batch_size: 256
+    compute_fcd: false
